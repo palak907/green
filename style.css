@@ -1,0 +1,239 @@
+.navbar li{
+    display: inline-block;
+    padding: 30px 10px;
+    color: black;
+}
+    
+
+.navbar ul{
+    
+    list-style: none;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    
+}
+
+.flexbox1{
+    display: flex;
+    background-color: rgb(222, 236, 245);
+    justify-content: space-between;
+    
+}
+
+.icon p{
+    width: 100px;
+}
+.icon img{
+    padding-left: 15px;
+}
+.btn button{
+    padding: 10px 30px;
+    background-color: rgb(16, 68, 16);
+    color: white;
+}
+.btn{
+    padding:30px  100px ;
+}
+.heading{
+    padding:  5% 27%;
+    text-align: center;
+    font-size:30px;
+    background-color: rgb(222, 236, 245);
+}
+.heading button{
+    padding: 3% 12%;
+    background-color: rgb(223, 131, 114);
+    color: rgb(6, 58, 6);
+    border: 1px solid rgb(6, 58, 6);
+}
+.bgimage{
+    width: 100%;
+    height: 70vh;
+    
+    
+    background: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+.flexbox2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+.para{
+    width: 50%;
+    padding: 3% ;
+}
+.item2 h1{
+    width: 65%;
+    
+}
+.flexbox3{
+    display: flex;
+}
+.item3{
+    padding: 5%;
+}
+.menu{
+    background-color: rgb(222, 236, 245);
+}
+.flexbox4{
+    display: flex;
+    
+    padding: 5% ;
+}
+.item4 img{
+    padding: 3%;
+}
+.sp img{
+    width: 200px;
+    transform: rotate(-90deg);
+    
+}
+.Noodles img{
+    padding-top: 50px;
+    
+    
+    
+}
+.menu{
+    color: rgb(6, 58, 6);
+}
+.menu h1{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+.salad img{
+    padding-right: 150px;
+    padding-top: 50px;
+}
+.salad p{
+    padding-left: 15px;
+}
+.salad h3{
+    padding-left: 15px;
+}
+.Noodles p{
+    padding-left: 10px;
+}
+.Noodles h3{
+    padding-left: 7px;
+}
+.sp p{
+    padding-right: 60px;
+}
+
+.menu button{
+    padding: 5% 30%;
+    background-color: rgb(223, 131, 114); 
+    color:rgb(6, 58, 6) ;
+    border: 1px solid rgb(6, 58, 6);
+}
+.btn2{
+    padding: 2% 40%;
+}
+.flexbox5{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-bottom:0% ;
+    
+}
+.item5{
+    padding: 5%;
+}
+.item button{
+    padding: 3% 20%;
+    background-color: rgb(223, 131, 114); 
+    color:rgb(6, 58, 6) ;
+    border: 1px solid rgb(6, 58, 6);
+}
+.item input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 270px;
+    padding-top: 10%;
+}
+.btn3{
+    padding: 30%  ;
+    width: 70%;
+}
+.item5{
+    
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    padding: 0% 40%;
+}
+@media (max-width:768px){
+    .flexbox1{
+        flex-direction: column;
+        
+        font-size: 15px;
+    }
+    .navbar li{
+        padding:5px 5px;
+    }
+    .icon{
+        order: -1;
+        padding:0px 120px;
+    }
+    .btn{
+        padding: 10px 100px;
+    }
+    .heading{
+        font-size: 23px;
+        padding: 5% 10%;
+    }
+    .heading button{
+        padding: 5% 25%;
+    }
+    .flexbox2{
+        flex-direction: column;
+        text-align: center;
+        padding: 20% 5%;
+    }
+    .para{
+        width: 100%;
+        text-align: left;
+    }
+    .item2 h1{
+        width: 100%;
+    }
+    .flexbox3{
+        flex-direction: column  ;
+    }
+    .flexbox4{
+        flex-direction: column;
+        
+    }
+    .sp img{
+        padding-left: 100px;
+        padding-top: 0px;
+    }
+    .menu button{
+        padding: 5% 8%;
+    }
+    .btn2{
+        padding: 2% 39%;
+    }
+    
+    .flexbox5{
+        flex-direction: column;
+    }
+    .btn3{
+        padding-top: 15%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+    }
+    footer{
+        padding: 10% 15%;
+        padding-bottom:5% ;
+    }
+    .item4 img{
+        width: 60%;
+    }
+}
